@@ -1,7 +1,7 @@
 
 ### Visitors tracker app based on angular-webpack-starter
 
-#https://github.com/AngularClass/angular2-webpack-starter
+##https://github.com/AngularClass/angular2-webpack-starter
 **Make sure you have Node version >= 5.0 and NPM >= 3**
 > Clone/Download the repo then edit `app.ts` inside [`/src/app/app.ts`](/src/app/app.ts)
 
@@ -11,7 +11,7 @@
 git clone --depth 1 https://github.com/nataljadj/visitors-track
 
 # change directory to our repo
-cd angular2-webpack-starter
+cd visitor-track
 
 # install the repo with npm
 npm install
