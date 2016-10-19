@@ -1,48 +1,17 @@
-<div class="card-container">
-  <h1 x-large class="sample-content">Your Content Here</h1>
-
-  <div>
-    For material design components use the <a href="https://github.com/AngularClass/angular2-webpack-starter/tree/material2"><b>material2</b></a> branch
-  </div>
-
-  <hr>
-
-  <div>
-    For hot module reloading run
-    <pre>npm run start:hmr</pre>
-  </div>
-
-  <hr>
-
-  <div>
-    <h4>Local State</h4>
-
-    <form (ngSubmit)="submitState(localState.value)" autocomplete="off">
-
-      <input
-        [value]="localState.value"
-        (input)="localState.value = $event.target.value"
-        placeholder="Submit Local State to App State"
-        autofocus>
-
-      <button md-raised-button color="primary">Submit Value</button>
-    </form>
-    <!--
-        <input type="text" [value]="localState.value" (input)="localState.value = $event.target.value" autofocus>
-        Rather than wiring up two-way data-binding ourselves with [value] and (input)
-        we can use Angular's [(ngModel)] syntax
-        <input type="text" name="textInput" [(ngModel)]="localState.value" autofocus>
-      -->
-
-    <pre>this.localState = {{ localState | json }}</pre>
-
-  </div>
-
-  <!--Try flex box style-->
-  <div class="flex-box-container">
-    <div class="box box-1"></div>
-    <div class="box box-2"></div>
-    <div class="box box-3"></div>
+<div class="container">
+  <div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-xs-6" *ngFor="let item of items">
+        <div class="widget-content text-center">
+          <h2>{{item.label}}</h2>
+          <div class="icon m-b-sm"><i class="fa {{item.icon}} fa-4x"></i></div>
+          <hr>
+          <div>
+            You have <b class="message-count">{{item.count}} </b> {{item.label}}
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
 </div>

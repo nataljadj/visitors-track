@@ -1,0 +1,65 @@
+.visit-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 220px;
+    transition: width 0.2s linear;
+    background-color: #0062aa;
+    z-index: 1;
+}
+.visit-nav .nav{
+    padding-left: 0;
+}
+.visit-nav .nav li a {
+    color: white;
+    display: block;
+    padding: 14px 20px 14px 25px;
+    font-weight: 600;
+    white-space: nowrap;
+    position: relative;
+}
+.visit-nav .nav li a:hover, .visit-nav .nav li a:focus, .visit-nav .nav li a:active {
+    color: #676a6c;
+    background-color: #f7f0fc;
+}
+.visit-nav .nav li a .counter {
+    background-color: #a7b1c2;
+    color: #0062aa;
+}
+.visit-nav .nav li.active > a {
+    background: #f7f0fc;
+    border-left: 4px solid #f7f0fc;
+    color: #726f7b;
+}
+.visit-nav .toggle {
+    background-color: #0074bc;
+}
+#page-wrapper {
+    display: flex;
+    position: relative;
+    padding: 0 15px;
+    margin: 0 0 0 220px;
+    transition: margin 0.2s linear;
+    min-height: 100vh;
+    background-color: #f3f3f4;
+    flex-direction: column;}
+
+.container{
+
+}
+.wrapper-content{
+    padding: 20px 10px 40px;
+}
+.widget-content{
+    margin: 10px;
+    background-color: #ffffff;
+    padding: 15px 20px 20px 20px;
+    border-color: #e7eaec;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 0;
+}
+.icon i{
+    color: #0074bc;
+}
