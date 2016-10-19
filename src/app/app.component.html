@@ -1,0 +1,36 @@
+<nav class="visit-nav">
+    <ul class="nav">
+        <li>
+            <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" tabindex="-1">
+                <i class="fa fa-home"></i>
+                <span class="nav-label">Dashboard</span>
+            </a>
+
+        </li>
+
+        <li>
+            <a routerLink="/dashboard" routerLinkActive="active" tabindex="-1" >
+                <i class="fa fa-group"></i>
+                <span class="nav-label">Visitors</span>
+            </a>
+        </li>
+
+        <li>
+            <a routerLink="/details" routerLinkActive="active" tabindex="-1">
+                <i class="fa fa-envelope-o"></i>
+                <span class="nav-label">Messages</span>
+            </a>
+
+            <a routerLink="/about" routerLinkActive="active" tabindex="-1">
+                <i class="fa fa-picture-o"></i>
+                <span class="nav-label">About</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<div id="page-wrapper" class="gray-bg">
+    <main>
+        <router-outlet></router-outlet>
+    </main>
+</div>

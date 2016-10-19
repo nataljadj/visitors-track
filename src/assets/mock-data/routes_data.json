@@ -1,0 +1,240 @@
+{
+  "mainNav": [
+    {
+      "name" : "Dashboard",
+      "label": "Dashboard",
+      "path": "/",
+      "useAsDefault" : true,
+      "liveUpdate": "",
+      "icon": "fa-home"
+    },
+    {
+      "name" : "Patients",
+      "label": "Patients",
+      "path": "/patients/...",
+      "liveUpdate": "",
+      "icon": "fa-group",
+      "childNav": [
+        {
+          "name": "PatientsList",
+          "label": "PatientsList",
+          "path": "/",
+          "useAsDefault": true,
+          "liveUpdate": "",
+          "icon": "fa-clipboard"
+        },
+        {
+          "name": "Chart",
+          "label": "Chart Summary",
+          "path": "/chart/:id",
+          "liveUpdate": "",
+          "icon": "fa-clipboard"
+        },
+        {
+          "name": "ProblemList",
+          "label": "Problem List",
+          "path": "/problem_list/:id",
+          "liveUpdate": "",
+          "icon": "fa-stethoscope"
+        },
+        {
+          "name": "FamilyHistory",
+          "label": "Family History",
+          "path": "/family_history/:id",
+          "liveUpdate": "",
+          "icon": "fa-sitemap"
+        },
+         {
+          "name": "SocialHistory",
+          "label": "Social History",
+          "path": "/social_history/:id",
+          "liveUpdate": "",
+          "icon": "fa-archive"
+        },
+         {
+          "name": "SurgicalHistory",
+          "label": "Surgical History",
+          "path": "/surgical_history/:id",
+          "liveUpdate": "",
+          "icon": "fa-newspaper-o"
+        },
+        {
+          "name": "Medications",
+          "label": "Medications",
+          "path": "/medications/:id",
+          "liveUpdate": "",
+          "icon": "fa-medkit"
+        },
+        {
+          "name": "Allergies",
+          "label": "Allergies",
+          "path": "/allergies/:id",
+          "liveUpdate": "",
+          "icon": "fa-envira"
+        },
+        {
+          "name": "NewEncounter",
+          "label": "New Encounter",
+          "path": "/new_encounter/:id",
+          "liveUpdate": "",
+          "icon": "fa-user-md"
+        },
+        {
+          "name": "Vitals",
+          "label": "Vitals",
+          "path": "/vitals/:id",
+          "liveUpdate": "",
+          "icon": "fa-heartbeat"
+        }
+      ]
+    },
+    {
+      "name" : "Messages",
+      "label": "Messages",
+      "path": "/messages/...",
+      "liveUpdate": "/json/counts/messages_count.json",
+      "icon": "fa-envelope-o",
+      "childNav": [
+        {
+          "name": "AllMessages",
+          "label": "All Messages",
+          "path": "/",
+          "useAsDefault": true,
+          "liveUpdate": "",
+          "icon": "fa-clipboard"
+        },
+		{
+          "name": "NewMessage",
+          "label": "New Message",
+          "path": "/new",
+          "liveUpdate": "",
+          "icon": "fa-clipboard"
+        },
+		{
+          "name": "ViewMessage",
+          "label": "View Message",
+          "path": "/view/:id",
+          "liveUpdate": "",
+          "icon": "fa-clipboard"
+        }
+      ]
+    },
+    {
+      "name" : "Imaging",
+      "label": "Imaging",
+      "path": "/imaging",
+      "liveUpdate": "/json/counts/imaging_count.json",
+      "icon": "fa-picture-o"
+    },
+    {
+      "name" : "Labs",
+      "label": "Labs",
+      "path": "/labs",
+      "liveUpdate": "/json/counts/labs_count.json",
+      "icon": "fa-flask"
+    },
+	{
+      "name" : "PrescriptionNotices",
+      "label": "Prescription Notices",
+      "path": "/prescription_notices",
+      "liveUpdate": "/json/counts/labs_count.json",
+      "icon": "fa-keyboard-o"
+    },
+    {
+      "name" : "Encounters",
+      "label": "Encounters",
+      "path": "/encounters",
+      "liveUpdate": "/json/counts/encounters_count.json",
+      "icon": "fa-user"
+    },
+    {
+      "name": "Schedule",
+      "label": "Schedule",
+      "path": "/schedule",
+      "liveUpdate": "/json/counts/schedule_count.json",
+      "icon": "fa-calendar"
+    },
+	{
+      "name" : "Admin",
+      "label": "Admin",
+      "path": "/admin/...",
+      "icon": "fa-diamond",
+       "childNav": [
+	    {
+          "name": "AdminBlank",
+          "label": "AdminBlank",
+          "path": "/",
+          "useAsDefault": true,
+          "liveUpdate": "",
+          "icon": "fa-clipboard"
+        },
+        {
+          "name": "Scheduling",
+          "label": "Scheduling",
+		  "breadcrumbsTitle" : "Schedule Options",
+          "path": "/scheduling",
+          "liveUpdate": "",
+          "icon": "fa-calendar"
+        },
+         {
+           "name": "Orders",
+           "label": "Orders",
+           "breadcrumbsTitle" : "Orders",
+           "path": "/orders",
+           "liveUpdate": "",
+           "icon": "fa-first-order"
+         }
+      ]
+    }
+  ],
+  "homeNav": [
+    {
+      "label": "Messages",
+      "route": "/messages/list",
+      "liveUpdate": "/json/counts/messages_count.json",
+      "icon": "fa-envelope-o"
+    },
+    {
+      "label": "Imaging",
+      "route": "/imaging/list",
+      "liveUpdate": "/json/counts/imaging_count.json",
+      "icon": "fa-picture-o"
+    },
+    {
+      "label": "Labs",
+      "route": "/labs/list",
+      "liveUpdate": "/json/counts/labs_count.json",
+      "icon": "fa-flask"
+    },
+    {
+      "label": "Prescription Notices",
+      "route": "/prescriptions/list",
+      "liveUpdate": "/json/counts/prescriptions_count.json",
+      "icon": "fa-list-alt"
+    },
+    {
+      "label": "Open Encounters",
+      "route": "/encounters/list",
+      "liveUpdate": "/json/counts/encounters_count.json",
+      "icon": "fa-user"
+    },
+    {
+      "label": "Schedule",
+      "route": "/schedule/list",
+      "liveUpdate": "/json/counts/schedule_count.json",
+      "icon": "fa-calendar"
+    },
+    {
+      "label": "Note List",
+      "route": "/note/list",
+      "liveUpdate": "/json/counts/note_list_count.json",
+      "icon": "fa-file-text-o"
+    },
+    {
+      "label": "Reminders",
+      "route": "/reminders/list",
+      "liveUpdate": "/json/counts/reminders_count.json",
+      "icon": "fa-clock-o"
+    }
+  ]
+}
