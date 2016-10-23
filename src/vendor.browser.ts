@@ -17,8 +17,6 @@ import '@angular/router';
 // AngularClass
 import '@angularclass/hmr';
 
-import 'bootstrap/dist/js/bootstrap';
-
 // RxJS
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/mergeMap';

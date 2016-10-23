@@ -1,0 +1,1249 @@
+[
+  {
+    "id": "1",
+    "firstName": "Andy",
+    "lastName": "Anderson",
+    "dob": "07/07/1950",
+    "dod": null,
+    "ssn": "123-45-7980",
+    "sex": "Male",
+    "address": {
+      "streetAddress": "3300 N Central Ave",
+      "streetAddressTwo": "",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "85012"
+    },
+    "phones": [
+      {
+        "type": "Home",
+        "value": "555-555-5555"
+      },
+      {
+        "type": "Work",
+        "value": "222-222-2222"
+
+      },
+      {
+        "type": "Mobile",
+        "value": "333-333-3333",
+        "selected": "true"
+      }
+    ],
+    "hphone": "555-555-5555",
+    "wphone": "222-222-2222",
+    "mphone": "333-333-3333",
+    "voicemail": "",
+    "emails": [
+      {
+        "type": "Personal Email",
+        "value": "bill@gmail.com",
+        "selected": "true"
+      },
+      {
+        "type": "Work Email",
+        "value": "bill@cgm.com"
+      },
+      {
+        "type": "Personal Email",
+        "value": "bill2@gmail.com"
+      }
+    ],
+    "email": "bill@gmail.com",
+    "ethnicity":[],
+    "race": [
+      {
+        "id": "zxfgg5232",
+        "value": "Black or African American"
+      },
+      {
+        "id": "zxf5232",
+        "value": "Asian"
+      }
+    ],
+    "language": [],
+    "primaryInsurance": "USAA",
+    "primaryInsurancePolicyNumber": "789987",
+    "assignedProvider": "Benji B. Casy III, M.D.",
+    "mrn": "100001",
+    "preferredPharm": "Walgreens",
+    "isDeceased": "No",
+    "lastSeen": "09/25/2015",
+    "lastSeenCC": "Sore Shoulder",
+    "lastViewed": "10/01/2015",
+    "avatar": "assets/images/patients/1/photo/a4.jpg",
+    "middleName": "Arthur",
+    "contactPreference": "Home Phone Message",
+    "mothersFirstName": "Tammy",
+    "mothersMaidenName": "Hoag",
+    "birthPlace": "Mercy Hospital",
+    "multipleBirth": "no",
+    "immRegStatus": "Active",
+    "immVFCStatus": "Not VFC Eligible",
+    "immRRCP": "No Contact Preference Selected",
+    "privateNotes": "test notes and such.",
+    "details_images": [
+      {
+        "url": "assets/images/patients/1/details_images/license1.jpg"
+      },
+      {
+        "url": "assets/images/patients/1/details_images/license2.jpg"
+      },
+      {
+        "url": "assets/images/patients/1/details_images/license3.jpg"
+      }
+    ],
+    "contacts": [
+      {
+        "contactName": "Thom Robertson",
+        "relationship": "Brother",
+        "hphone": "555-123-1234",
+        "cphone": "999-111-2222"
+      },
+      {
+        "contactName": "Susan Bartz",
+        "relationship": "Sister",
+        "cphone": "999-112-2233"
+      },
+      {
+        "contactName": "Jim Robertson",
+        "relationship": "Father",
+        "hphone": "999-123-1234",
+        "cphone": "890-121-9870"
+      }
+    ],
+    "insurance": [
+      {
+        "policyType": "Primary",
+        "carrierName": "Aetna",
+        "policyNumber": "65256789",
+        "groupNumber": "98565",
+        "effectiveDate": "2014-01-01",
+        "terminationDate": "",
+        "cardIssueDate": "2014-01-01",
+        "acceptAssignment": "Y",
+        "employer": "CompuGroupMedical",
+        "lastName": "Boyd",
+        "firstName": "Barb",
+        "middleName": "Anne",
+        "prefix": "Mrs",
+        "suffix": "",
+        "dob": "1967-06-18",
+        "sex": "F",
+        "relationshipToPolicyHolder": "Self",
+        "medicareMedicaidType": "",
+        "medicareSupplementalType": "",
+        "insuranceLiabilityPct": "80",
+        "paymentPct": "20",
+        "patientCoinsurance": "15",
+        "deductible": "5000",
+        "specialistCopay": "",
+        "otherCopayTypeAndCost1": "",
+        "otherCopayTypeAndCost2": "",
+        "otherCopayTypeAndCost3": "",
+        "otherCopayTypeAndCost4": "",
+        "otherCopayTypeAndCost5": "",
+        "coverageLastVerfiedDate": "2015-01-01",
+        "coverageVerifiedBy": "Bob Marley, RN",
+        "electronicEligibilityCoverageLastVerifiedDate": "2015_01-01",
+        "electronicCoverageVerifiedBy": "Bob Marley, RN",
+        "notes": "Some random notes will go here"
+      },
+      {
+        "policyType": "Secondary",
+        "carrierName": "Medicare",
+        "policyNumber": "885858",
+        "groupNumber": "121141",
+        "effectiveDate": "2014-01-01",
+        "terminationDate": "",
+        "cardIssueDate": "2014-01-01",
+        "acceptAssignment": "Y",
+        "billThisCarrier": "",
+        "specialBilling": "N",
+        "employer": "CompuGroupMedical",
+        "lastName": "Boyd",
+        "firstName": "Barb",
+        "middleName": "Anne",
+        "prefix": "Mrs",
+        "suffix": "",
+        "dob": "1967-06-18",
+        "sex": "F",
+        "relationshipToPolicyHolder": "Self",
+        "medicareMedicaidType": "",
+        "medicareSupplementalType": "",
+        "insuranceLiabilityPct": "80",
+        "paymentPct": "20",
+        "patientCoinsurance": "15",
+        "deductible": "5000",
+        "specialistCopay": "",
+        "otherCopayTypeAndCost1": "",
+        "otherCopayTypeAndCost2": "",
+        "otherCopayTypeAndCost3": "",
+        "otherCopayTypeAndCost4": "",
+        "otherCopayTypeAndCost5": "",
+        "coverageLastVerfiedDate": "2015-01-01",
+        "coverageVerifiedBy": "Bob Marley, RN",
+        "electronicEligibilityCoverageLastVerifiedDate": "2015_01-01",
+        "electronicCoverageVerifiedBy": "Bob Marley, RN",
+        "notes": "Some random notes will go here"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "firstName": "Sandra",
+    "lastName": "Jackson",
+    "dob": "08/07/1980",
+    "ssn": "245-45-5544",
+    "sex": "Female",
+    "address": {
+      "streetAddress": "3300 N Central Ave",
+      "streetAddressTwo": "",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "85012"
+    },
+    "phones": [
+      {
+        "type": "Home",
+        "value": "555-555-5555"
+      },
+      {
+        "type": "Work",
+        "value": "222-222-2222"
+      },
+      {
+        "type": "Mobile",
+        "value": "333-333-3333"
+      }
+    ],
+    "hphone": "555-555-5555",
+    "wphone": "222-222-2222",
+    "mphone": "333-333-3333",
+    "emails": [
+      {
+        "type": "Personal Email",
+        "value": "sjackson@gmail.com",
+        "selected": "true"
+      },
+      {
+        "type": "Work Email",
+        "value": "bill@cgm.com"
+      },
+      {
+        "type": "Personal Email",
+        "value": "bill2@gmail.com"
+      }
+    ],
+    "email": "sjackson@gmail.com",
+    "ethnicity": [],
+    "race": [],
+    "language": [],
+    "primaryInsurance": "State Farm",
+    "primaryInsurancePolicyNumber": "123987",
+    "assignedProvider": "Benji B. Casy III, M.D.",
+    "mrn": "100002",
+    "preferredPharm": "CVS",
+    "isDeceased": "No",
+    "lastSeen": "08/25/2015",
+    "lastSeenCC": "Foot Sprain",
+    "lastViewed": "10/01/2015",
+    "avatar": "assets/images/patients/2/photo/a2.jpg",
+    "middleName": "B.",
+    "contactPreference": "Home Phone Message",
+    "mothersFirstName": "Tammy",
+    "mothersMaidenName": "Hoag",
+    "birthPlace": "Mercy Hospital",
+    "multipleBirth": "no",
+    "immRegStatus": "Active",
+    "immVFCStatus": "Not VFC Eligible",
+    "immRRCP": "No Contact Preference Selected",
+    "privateNotes": "test notes and such.",
+    "details_images": [
+      {
+        "url": "assets/images/patients/2/details_images/license1.jpg"
+      },
+      {
+        "url": "assets/images/patients/2/details_images/license2.jpg"
+      },
+      {
+        "url": "assets/images/patients/2/details_images/license3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "firstName": "John",
+    "lastName": "Underwood",
+    "dob": "02/27/1976",
+    "ssn": "232-55-1254",
+    "sex": "Male",
+    "address": {
+      "streetAddress": "3300 N Central Ave",
+      "streetAddressTwo": "",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "85012"
+    },
+    "phones": [
+      {
+        "type": "Home",
+        "value": "555-555-5555"
+      },
+      {
+        "type": "Work",
+        "value": "222-222-2222"
+      },
+      {
+        "type": "Mobile",
+        "value": "333-333-3333"
+      }
+    ],
+    "hphone": "555-555-5555",
+    "wphone": "222-222-2222",
+    "mphone": "333-333-3333",
+    "emails": [
+      {
+        "type": "Personal Email",
+        "value": "junderwood02@gmail.com",
+        "selected": "true"
+      },
+      {
+        "type": "Work Email",
+        "value": "bill@cgm.com"
+      },
+      {
+        "type": "Personal Email",
+        "value": "bill2@gmail.com"
+      }
+    ],
+    "email": "junderwood02@gmail.com",
+    "ethnicity": [],
+    "race": [],
+    "language": [],
+    "primaryInsurance": "All State",
+    "primaryInsurancePolicyNumber": "0012584",
+    "assignedProvider": "Benji B. Casy III, M.D.",
+    "mrn": "100003",
+    "preferredPharm": "CVS",
+    "isDeceased": "No",
+    "lastSeen": "08/21/2015",
+    "lastSeenCC": "Diabetes Followup",
+    "lastViewed": "10/01/2015",
+    "avatar": "assets/images/patients/3/photo/a3.jpg",
+    "middleName": "C.",
+    "contactPreference": "Home Phone Message",
+    "mothersFirstName": "Tammy",
+    "mothersMaidenName": "Hoag",
+    "birthPlace": "Mercy Hospital",
+    "multipleBirth": "no",
+    "immRegStatus": "Active",
+    "immVFCStatus": "Not VFC Eligible",
+    "immRRCP": "No Contact Preference Selected",
+    "privateNotes": "test notes and such."
+  },
+  {
+    "id": "4",
+    "firstName": "Beverly",
+    "lastName": "Barnes",
+    "dob": "07/07/1950",
+    "ssn": "123-45-7980",
+    "sex": "Female",
+    "address": {
+      "streetAddress": "3300 N. Central Street",
+      "streetAddressTwo": "",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "99999"
+    },
+    "phones": [
+      {
+        "type": "Home",
+        "value": "555-555-5555"
+      },
+      {
+        "type": "Work",
+        "value": "222-222-2222"
+      },
+      {
+        "type": "Mobile",
+        "value": "333-333-3333"
+      }
+    ],
+    "hphone": "555-555-5555",
+    "wphone": "222-222-2222",
+    "mphone": "333-333-3333",
+    "email": "andyanderson@gmail.com",
+    "ethnicity": [],
+    "race": [
+      {
+        "value": "Asian"
+      }
+    ],
+    "language": [],
+    "primaryInsurance": "USAA",
+    "primaryInsurancePolicyNumber": "789987",
+    "assignedProvider": "Benji B. Casy III, M.D.",
+    "mrn": "100004",
+    "preferredPharm": "Walgreens",
+    "isDeceased": "No",
+    "lastSeen": "09/25/2015",
+    "lastSeenCC": "Sore Shoulder",
+    "lastViewed": "10/01/2015",
+    "avatar": "assets/images/patients/4/photo/a4.jpg",
+    "middleName": "D.",
+    "contactPreference": "Home Phone Message",
+    "mothersFirstName": "Tammy",
+    "mothersMaidenName": "Hoag",
+    "birthPlace": "Mercy Hospital",
+    "multipleBirth": "no",
+    "immRegStatus": "Active",
+    "immVFCStatus": "Not VFC Eligible",
+    "immRRCP": "No Contact Preference Selected",
+    "privateNotes": "test notes and such."
+  },
+  {
+    "id": "5",
+    "firstName": "Charles",
+    "lastName": "Coughlin",
+    "dob": "07/07/1950",
+    "ssn": "123-45-7980",
+    "sex": "Male",
+    "address": {
+      "streetAddress": "3300 N. Central Street",
+      "streetAddressTwo": "",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "99999"
+    },
+    "phones": [
+      {
+        "type": "Home",
+        "value": "555-555-5555"
+      },
+      {
+        "type": "Work",
+        "value": "222-222-2222"
+      },
+      {
+        "type": "Mobile",
+        "value": "333-333-3333"
+      }
+    ],
+    "hphone": "555-555-5555",
+    "wphone": "222-222-2222",
+    "mphone": "333-333-3333",
+    "email": "andyanderson@gmail.com",
+    "ethnicity": [],
+    "race": [],
+    "language": [],
+    "primaryInsurance": "USAA",
+    "primaryInsurancePolicyNumber": "789987",
+    "assignedProvider": "Benji B. Casy III, M.D.",
+    "mrn": "100005",
+    "preferredPharm": "Walgreens",
+    "isDeceased": "No",
+    "lastSeen": "09/25/2015",
+    "lastSeenCC": "Sore Shoulder",
+    "lastViewed": "10/01/2015",
+    "avatar": "assets/images/patients/5/photo/a5.jpg",
+    "middleName": "E.",
+    "contactPreference": "Home Phone Message",
+    "mothersFirstName": "Tammy",
+    "mothersMaidenName": "Hoag",
+    "birthPlace": "Mercy Hospital",
+    "multipleBirth": "no",
+    "immRegStatus": "Active",
+    "immVFCStatus": "Not VFC Eligible",
+    "immRRCP": "No Contact Preference Selected",
+    "privateNotes": "test notes and such."
+  },
+  {
+    "id": "6",
+    "firstName": "David",
+    "lastName": "Duchovny",
+    "dob": "07/07/1950",
+    "ssn": "123-45-7980",
+    "sex": "Male",
+    "address": {
+      "streetAddress": "3300 N. Central Street",
+      "streetAddressTwo": "",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "99999"
+    },
+    "phones": [
+      {
+        "type": "Home",
+        "value": "555-555-5555"
+      },
+      {
+        "type": "Work",
+        "value": "222-222-2222"
+      },
+      {
+        "type": "Mobile",
+        "value": "333-333-3333"
+      }
+    ],
+    "hphone": "555-555-5555",
+    "wphone": "222-222-2222",
+    "mphone": "333-333-3333",
+    "email": "andyanderson@gmail.com",
+    "ethnicity": [
+      {
+        "id": "sdf234",
+        "value": "Hispanic or Latino"
+      },
+      {
+        "id": "sdf234",
+        "value": "Not Hispanic or Latino"
+      }
+    ],
+    "race": [],
+    "language": [],
+    "primaryInsurance": "USAA",
+    "primaryInsurancePolicyNumber": "789987",
+    "assignedProvider": "Benji B. Casy III, M.D.",
+    "mrn": "100006",
+    "preferredPharm": "Walgreens",
+    "isDeceased": "No",
+    "lastSeen": "09/25/2015",
+    "lastSeenCC": "Sore Shoulder",
+    "lastViewed": "10/02/2015",
+    "avatar": "assets/images/patients/6/photo/a6.jpg",
+    "middleName": "F",
+    "contactPreference": "Home Phone Message",
+    "mothersFirstName": "Tammy",
+    "mothersMaidenName": "Hoag",
+    "birthPlace": "Mercy Hospital",
+    "multipleBirth": "no",
+    "immRegStatus": "Active",
+    "immVFCStatus": "Not VFC Eligible",
+    "immRRCP": "No Contact Preference Selected",
+    "privateNotes": "test notes and such."
+  },
+  {
+    "id": "7",
+    "firstName": "Edsel",
+    "lastName": "Edwards",
+    "dob": "07/07/1950",
+    "ssn": "123-45-7980",
+    "sex": "Male",
+    "address": {
+      "streetAddress": "3300 N. Central Street",
+      "streetAddressTwo": "",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "99999"
+    },
+    "phones": [
+      {
+        "type": "Home",
+        "value": "555-555-5555"
+      },
+      {
+        "type": "Work",
+        "value": "222-222-2222"
+      },
+      {
+        "type": "Mobile",
+        "value": "333-333-3333"
+      }
+    ],
+    "hphone": "555-555-5555",
+    "wphone": "222-222-2222",
+    "mphone": "333-333-3333",
+    "email": "andyanderson@gmail.com",
+    "ethnicity":[],
+    "race": [
+      {
+        "value": "Asian"
+      }
+    ],
+    "language": [],
+    "primaryInsurance": "USAA",
+    "primaryInsurancePolicyNumber": "789987",
+    "assignedProvider": "Benji B. Casy III, M.D.",
+    "mrn": "100007",
+    "preferredPharm": "Walgreens",
+    "isDeceased": "No",
+    "lastSeen": "09/25/2015",
+    "lastSeenCC": "Sore Shoulder",
+    "lastViewed": "10/01/2015",
+    "avatar": "assets/images/patients/7/photo/a7.jpg",
+    "middleName": "G.",
+    "contactPreference": "Home Phone Message",
+    "mothersFirstName": "Tammy",
+    "mothersMaidenName": "Hoag",
+    "birthPlace": "Mercy Hospital",
+    "multipleBirth": "no",
+    "immRegStatus": "Active",
+    "immVFCStatus": "Not VFC Eligible",
+    "immRRCP": "No Contact Preference Selected",
+    "privateNotes": "test notes and such."
+  },
+  {
+    "id": "8",
+    "firstName": "Fred",
+    "lastName": "Flintsone",
+    "dob": "07/07/1950",
+    "ssn": "123-45-7980",
+    "sex": "Male",
+    "address": {
+      "streetAddress": "3300 N Central Ave",
+      "streetAddressTwo": "",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "85012"
+    },
+    "hphone": "555-555-5555",
+    "wphone": "not given",
+    "mphone": "not given",
+    "email": "andyanderson@gmail.com",
+    "ethnicity":[],
+    "race": [
+      {
+        "value": "Asian"
+      }
+    ],
+    "language": [],
+    "primaryInsurance": "USAA",
+    "primaryInsurancePolicyNumber": "789987",
+    "assignedProvider": "Benji B. Casy III, M.D.",
+    "mrn": "100008",
+    "preferredPharm": "Walgreens",
+    "isDeceased": "No",
+    "lastSeen": "09/25/2015",
+    "lastSeenCC": "Sore Shoulder",
+    "lastViewed": "10/02/2015",
+    "avatar": "assets/images/patients/8/photo/a8.jpg",
+    "middleName": "H.",
+    "contactPreference": "Home Phone Message",
+    "mothersFirstName": "Tammy",
+    "mothersMaidenName": "Hoag",
+    "birthPlace": "Mercy Hospital",
+    "multipleBirth": "no",
+    "immRegStatus": "Active",
+    "immVFCStatus": "Not VFC Eligible",
+    "immRRCP": "No Contact Preference Selected",
+    "privateNotes": "test notes and such."
+  },
+  {
+    "id": "9",
+    "firstName": "George",
+    "lastName": "Gershwin",
+    "dob": "07/07/1950",
+    "ssn": "123-45-7980",
+    "sex": "Male",
+    "address": {
+      "streetAddress": "3300 N. Central Street",
+      "streetAddressTwo": "",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "99999"
+    },
+    "hphone": "555-555-5555",
+    "wphone": "not given",
+    "mphone": "not given",
+    "email": "andyanderson@gmail.com",
+    "ethnicity":[],
+    "race": [
+      {
+        "value": "Asian"
+      }
+    ],
+    "language": [],
+    "primaryInsurance": "USAA",
+    "primaryInsurancePolicyNumber": "789987",
+    "assignedProvider": "Benji B. Casy III, M.D.",
+    "mrn": "100009",
+    "preferredPharm": "Walgreens",
+    "isDeceased": "No",
+    "lastSeen": "09/25/2015",
+    "lastSeenCC": "Sore Shoulder",
+    "lastViewed": "10/01/2015",
+    "avatar": "assets/images/patients/8/photo/a8.jpg",
+    "middleName": "I.",
+    "contactPreference": "Home Phone Message",
+    "mothersFirstName": "Tammy",
+    "mothersMaidenName": "Hoag",
+    "birthPlace": "Mercy Hospital",
+    "multipleBirth": "no",
+    "immRegStatus": "Active",
+    "immVFCStatus": "Not VFC Eligible",
+    "immRRCP": "No Contact Preference Selected",
+    "privateNotes": "test notes and such."
+  },
+  {
+    "id": "10",
+    "firstName": "Howard",
+    "lastName": "Hughes",
+    "dob": "07/07/1950",
+    "ssn": "123-45-7980",
+    "sex": "Male",
+    "address": {
+      "streetAddress": "3300 N. Central Street",
+      "streetAddressTwo": "",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "99999"
+    },
+    "hphone": "555-555-5555",
+    "wphone": "not given",
+    "mphone": "not given",
+    "email": "andyanderson@gmail.com",
+    "ethnicity":[],
+    "race": [
+      {
+        "value": "Asian"
+      }
+    ],
+    "language": [],
+    "primaryInsurance": "USAA",
+    "primaryInsurancePolicyNumber": "789987",
+    "assignedProvider": "Benji B. Casy III, M.D.",
+    "mrn": "100010",
+    "preferredPharm": "Walgreens",
+    "isDeceased": "No",
+    "lastSeen": "09/25/2015",
+    "lastSeenCC": "Sore Shoulder",
+    "lastViewed": "10/01/2015",
+    "avatar": "assets/images/patients/8/photo/a8.jpg",
+    "middleName": "Arthur",
+    "contactPreference": "Home Phone Message",
+    "mothersFirstName": "Tammy",
+    "mothersMaidenName": "Hoag",
+    "birthPlace": "Mercy Hospital",
+    "multipleBirth": "no",
+    "immRegStatus": "Active",
+    "immVFCStatus": "Not VFC Eligible",
+    "immRRCP": "No Contact Preference Selected",
+    "privateNotes": "test notes and such."
+  },
+  {
+    "id": "11",
+    "firstName": "Ildris",
+    "lastName": "Ing",
+    "dob": "07/07/1950",
+    "ssn": "123-45-7980",
+    "sex": "Male",
+    "address": {
+      "streetAddress": "3300 N. Central Street",
+      "streetAddressTwo": "",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "99999"
+    },
+    "hphone": "555-555-5555",
+    "wphone": "not given",
+    "mphone": "not given",
+    "email": "andyanderson@gmail.com",
+    "ethnicity":[],
+    "race": [
+      {
+        "value": "Asian"
+      }
+    ],
+    "language": [],
+    "primaryInsurance": "USAA",
+    "primaryInsurancePolicyNumber": "789987",
+    "assignedProvider": "Benji B. Casy III, M.D.",
+    "mrn": "100011",
+    "preferredPharm": "Walgreens",
+    "isDeceased": "No",
+    "lastSeen": "09/25/2015",
+    "lastSeenCC": "Sore Shoulder",
+    "lastViewed": "10/02/2015",
+    "avatar": "assets/images/patients/8/photo/a8.jpg",
+    "middleName": "J.",
+    "contactPreference": "Home Phone Message",
+    "mothersFirstName": "Tammy",
+    "mothersMaidenName": "Hoag",
+    "birthPlace": "Mercy Hospital",
+    "multipleBirth": "no",
+    "immRegStatus": "Active",
+    "immVFCStatus": "Not VFC Eligible",
+    "immRRCP": "No Contact Preference Selected",
+    "privateNotes": "test notes and such."
+  },
+  {
+    "id": "12",
+    "firstName": "Joe",
+    "lastName": "Jackson",
+    "dob": "07/07/1950",
+    "ssn": "123-45-7980",
+    "sex": "Male",
+    "address": {
+      "streetAddress": "3300 N. Central Street",
+      "streetAddressTwo": "",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "99999"
+    },
+    "hphone": "555-555-5555",
+    "wphone": "not given",
+    "mphone": "not given",
+    "email": "andyanderson@gmail.com",
+    "ethnicity":[],
+    "race": [],
+    "language": [],
+    "primaryInsurance": "USAA",
+    "primaryInsurancePolicyNumber": "789987",
+    "assignedProvider": "Benji B. Casy III, M.D.",
+    "mrn": "100012",
+    "preferredPharm": "Walgreens",
+    "isDeceased": "No",
+    "lastSeen": "09/25/2015",
+    "lastSeenCC": "Sore Shoulder",
+    "lastViewed": "09/28/2015",
+    "avatar": "assets/images/patients/8/photo/a8.jpg",
+    "middleName": "K.",
+    "contactPreference": "Home Phone Message",
+    "mothersFirstName": "Tammy",
+    "mothersMaidenName": "Hoag",
+    "birthPlace": "Mercy Hospital",
+    "multipleBirth": "no",
+    "immRegStatus": "Active",
+    "immVFCStatus": "Not VFC Eligible",
+    "immRRCP": "No Contact Preference Selected",
+    "privateNotes": "test notes and such."
+  },
+  {
+    "id": "13",
+    "firstName": "Kevin",
+    "lastName": "Kravitz",
+    "dob": "07/07/1950",
+    "ssn": "123-45-7980",
+    "sex": "Male",
+    "address": {
+      "streetAddress": "3300 N. Central Street",
+      "streetAddressTwo": "",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "99999"
+    },
+    "hphone": "555-555-5555",
+    "wphone": "not given",
+    "mphone": "not given",
+    "email": "andyanderson@gmail.com",
+    "ethnicity":[],
+    "race": [],
+    "language": [],
+    "primaryInsurance": "USAA",
+    "primaryInsurancePolicyNumber": "789987",
+    "assignedProvider": "Benji B. Casy III, M.D.",
+    "mrn": "100013",
+    "preferredPharm": "Walgreens",
+    "isDeceased": "No",
+    "lastSeen": "09/25/2015",
+    "lastSeenCC": "Sore Shoulder",
+    "lastViewed": "09/28/2015",
+    "avatar": "assets/images/patients/8/photo/a8.jpg",
+    "middleName": "L.",
+    "contactPreference": "Home Phone Message",
+    "mothersFirstName": "Tammy",
+    "mothersMaidenName": "Hoag",
+    "birthPlace": "Mercy Hospital",
+    "multipleBirth": "no",
+    "immRegStatus": "Active",
+    "immVFCStatus": "Not VFC Eligible",
+    "immRRCP": "No Contact Preference Selected",
+    "privateNotes": "test notes and such."
+  },
+  {
+    "id": "14",
+    "firstName": "Laura",
+    "lastName": "Lexington",
+    "dob": "07/07/1950",
+    "ssn": "123-45-7980",
+    "sex": "Female",
+    "address": {
+      "streetAddress": "3300 N. Central Street",
+      "streetAddressTwo": "",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "99999"
+    },
+    "hphone": "555-555-5555",
+    "wphone": "not given",
+    "mphone": "not given",
+    "email": "andyanderson@gmail.com",
+    "ethnicity":[],
+    "race": [
+      {
+        "value": "Asian"
+      }
+    ],
+    "language": [],
+    "primaryInsurance": "USAA",
+    "primaryInsurancePolicyNumber": "789987",
+    "assignedProvider": "Benji B. Casy III, M.D.",
+    "mrn": "100014",
+    "preferredPharm": "Walgreens",
+    "isDeceased": "No",
+    "lastSeen": "09/25/2015",
+    "lastSeenCC": "Sore Shoulder",
+    "lastViewed": "10/01/2015",
+    "avatar": "assets/images/patients/8/photo/a8.jpg",
+    "middleName": "M.",
+    "contactPreference": "Home Phone Message",
+    "mothersFirstName": "Tammy",
+    "mothersMaidenName": "Hoag",
+    "birthPlace": "Mercy Hospital",
+    "multipleBirth": "no",
+    "immRegStatus": "Active",
+    "immVFCStatus": "Not VFC Eligible",
+    "immRRCP": "No Contact Preference Selected",
+    "privateNotes": "test notes and such."
+  },
+  {
+    "id": "15",
+    "firstName": "Marla",
+    "lastName": "McClain",
+    "dob": "07/07/1950",
+    "ssn": "123-45-7980",
+    "sex": "Female",
+    "address": {
+      "streetAddress": "3300 N. Central Street",
+      "streetAddressTwo": "",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "99999"
+    },
+    "hphone": "555-555-5555",
+    "wphone": "not given",
+    "mphone": "not given",
+    "email": "andyanderson@gmail.com",
+    "ethnicity":[],
+    "race": [
+      {
+        "value": "Asian"
+      }
+    ],
+    "language": [],
+    "primaryInsurance": "USAA",
+    "primaryInsurancePolicyNumber": "789987",
+    "assignedProvider": "Benji B. Casy III, M.D.",
+    "mrn": "100015",
+    "preferredPharm": "Walgreens",
+    "isDeceased": "No",
+    "lastSeen": "09/25/2015",
+    "lastSeenCC": "Sore Shoulder",
+    "lastViewed": "10/01/2015",
+    "avatar": "assets/images/patients/8/photo/a8.jpg"
+  },
+  {
+    "id": "16",
+    "firstName": "Nancy",
+    "lastName": "Noonan",
+    "dob": "07/07/1950",
+    "ssn": "123-45-7980",
+    "sex": "Female",
+    "address": {
+      "streetAddress": "3300 N. Central Street",
+      "streetAddressTwo": "",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "99999"
+    },
+    "hphone": "555-555-5555",
+    "wphone": "not given",
+    "mphone": "not given",
+    "email": "andyanderson@gmail.com",
+    "ethnicity":[],
+    "race": [
+      {
+        "value": "Asian"
+      }
+    ],
+    "language": [],
+    "primaryInsurance": "USAA",
+    "primaryInsurancePolicyNumber": "789987",
+    "assignedProvider": "Benji B. Casy III, M.D.",
+    "mrn": "100016",
+    "preferredPharm": "Walgreens",
+    "isDeceased": "No",
+    "lastSeen": "09/25/2015",
+    "lastSeenCC": "Sore Shoulder",
+    "lastViewed": "10/02/2015",
+    "avatar": "assets/images/patients/8/photo/a8.jpg",
+    "middleName": "Arthur",
+    "contactPreference": "Home Phone Message",
+    "mothersFirstName": "Tammy",
+    "mothersMaidenName": "Hoag",
+    "birthPlace": "Mercy Hospital",
+    "multipleBirth": "no",
+    "immRegStatus": "Active",
+    "immVFCStatus": "Not VFC Eligible",
+    "immRRCP": "No Contact Preference Selected",
+    "privateNotes": "test notes and such."
+  },
+  {
+    "id": "17",
+    "firstName": "Oliver",
+    "lastName": "Olmoguez",
+    "dob": "07/07/1950",
+    "ssn": "123-45-7980",
+    "sex": "Male",
+    "address": {
+      "streetAddress": "3300 N. Central Street",
+      "streetAddressTwo": "",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "99999"
+    },
+    "hphone": "555-555-5555",
+    "wphone": "not given",
+    "mphone": "not given",
+    "email": "andyanderson@gmail.com",
+    "ethnicity":[],
+    "race": [
+      {
+        "value": "Asian"
+      }
+    ],
+    "language": [],
+    "primaryInsurance": "USAA",
+    "primaryInsurancePolicyNumber": "789987",
+    "assignedProvider": "Benji B. Casy III, M.D.",
+    "mrn": "100017",
+    "preferredPharm": "Walgreens",
+    "isDeceased": "No",
+    "lastSeen": "09/25/2015",
+    "lastSeenCC": "Sore Shoulder",
+    "lastViewed": "10/01/2015",
+    "avatar": "assets/images/patients/8/photo/a8.jpg",
+    "middleName": "Arthur",
+    "contactPreference": "Home Phone Message",
+    "mothersFirstName": "Tammy",
+    "mothersMaidenName": "Hoag",
+    "birthPlace": "Mercy Hospital",
+    "multipleBirth": "no",
+    "immRegStatus": "Active",
+    "immVFCStatus": "Not VFC Eligible",
+    "immRRCP": "No Contact Preference Selected",
+    "privateNotes": "test notes and such."
+  },
+  {
+    "id": "18",
+    "firstName": "Paul",
+    "lastName": "Phoenix",
+    "dob": "07/07/1950",
+    "ssn": "123-45-7980",
+    "sex": "Male",
+    "address": {
+      "streetAddress": "3300 N. Central Street",
+      "streetAddressTwo": "",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "99999"
+    },
+    "hphone": "555-555-5555",
+    "wphone": "not given",
+    "mphone": "not given",
+    "email": "andyanderson@gmail.com",
+    "ethnicity":[],
+    "race": [
+      {
+        "value": "Asian"
+      }
+    ],
+    "language": [],
+    "primaryInsurance": "USAA",
+    "primaryInsurancePolicyNumber": "789987",
+    "assignedProvider": "Benji B. Casy III, M.D.",
+    "mrn": "100018",
+    "preferredPharm": "Walgreens",
+    "isDeceased": "No",
+    "lastSeen": "09/25/2015",
+    "lastSeenCC": "Sore Shoulder",
+    "lastViewed": "10/01/2015",
+    "avatar": "assets/images/patients/8/photo/a8.jpg",
+    "middleName": "Arthur",
+    "contactPreference": "Home Phone Message",
+    "mothersFirstName": "Tammy",
+    "mothersMaidenName": "Hoag",
+    "birthPlace": "Mercy Hospital",
+    "multipleBirth": "no",
+    "immRegStatus": "Active",
+    "immVFCStatus": "Not VFC Eligible",
+    "immRRCP": "No Contact Preference Selected",
+    "privateNotes": "test notes and such."
+  },
+  {
+    "id": "19",
+    "firstName": "Quincy",
+    "lastName": "Quarrels",
+    "dob": "07/07/1950",
+    "ssn": "123-45-7980",
+    "sex": "Male",
+    "address": {
+      "streetAddress": "3300 N. Central Street",
+      "streetAddressTwo": "",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "99999"
+    },
+    "hphone": "555-555-5555",
+    "wphone": "not given",
+    "mphone": "not given",
+    "email": "andyanderson@gmail.com",
+    "ethnicity":[],
+    "race": [
+      {
+        "value": "Asian"
+      }
+    ],
+    "language": [],
+    "primaryInsurance": "USAA",
+    "primaryInsurancePolicyNumber": "789987",
+    "assignedProvider": "Benji B. Casy III, M.D.",
+    "mrn": "100019",
+    "preferredPharm": "Walgreens",
+    "isDeceased": "No",
+    "lastSeen": "09/25/2015",
+    "lastSeenCC": "Sore Shoulder",
+    "lastViewed": "10/01/2015",
+    "avatar": "assets/images/patients/8/photo/a8.jpg",
+    "middleName": "N.",
+    "contactPreference": "Home Phone Message",
+    "mothersFirstName": "Tammy",
+    "mothersMaidenName": "Hoag",
+    "birthPlace": "Mercy Hospital",
+    "multipleBirth": "no",
+    "immRegStatus": "Active",
+    "immVFCStatus": "Not VFC Eligible",
+    "immRRCP": "No Contact Preference Selected",
+    "privateNotes": "test notes and such."
+  },
+  {
+    "id": "20",
+    "firstName": "Rochelle",
+    "lastName": "Robertson",
+    "dob": "07/07/1950",
+    "ssn": "123-45-7980",
+    "sex": "Female",
+    "address": {
+      "streetAddress": "3300 N. Central Street",
+      "streetAddressTwo": "",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "99999"
+    },
+    "hphone": "555-555-5555",
+    "wphone": "not given",
+    "mphone": "not given",
+    "email": "rrobertson@gmail.com",
+    "ethnicity": [],
+    "race": [
+      {
+        "value": "Asian"
+      }
+    ],
+    "language": [],
+    "primaryInsurance": "USAA",
+    "primaryInsurancePolicyNumber": "789987",
+    "assignedProvider": "Benji B. Casy III, M.D.",
+    "mrn": "100020",
+    "preferredPharm": "Walgreens",
+    "isDeceased": "No",
+    "lastSeen": "09/25/2015",
+    "lastSeenCC": "Sore Shoulder",
+    "lastViewed": "10/11/2015",
+    "avatar": "assets/images/patients/8/photo/a8.jpg",
+    "middleName": "Arthur",
+    "contactPreference": "Home Phone Message",
+    "mothersFirstName": "Tammy",
+    "mothersMaidenName": "Hoag",
+    "birthPlace": "Mercy Hospital",
+    "multipleBirth": "no",
+    "immRegStatus": "Active",
+    "immVFCStatus": "Not VFC Eligible",
+    "immRRCP": "No Contact Preference Selected",
+    "privateNotes": "test notes and such."
+  },
+  {
+    "id": "22",
+    "firstName": "Selena ",
+    "lastName": "R Kyle",
+    "dob": "07/07/1950",
+    "ssn": "123-45-7980",
+    "sex": "MALE",
+    "address": {
+      "streetAddress": "23230 Port Lane",
+      "streetAddressTwo": "",
+      "city": "Akron",
+      "state": "OH",
+      "zip": "443061214"
+    },
+    "phones": [
+      {
+        "type": "Home",
+        "value": "555-555-5555"
+      },
+      {
+        "type": "Work",
+        "value": "222-222-2222"
+
+      },
+      {
+        "type": "Mobile",
+        "value": "333-333-3333",
+        "selected": "true"
+      }
+    ],
+    "hphone": "555-555-5555",
+    "wphone": "222-222-2222",
+    "mphone": "333-333-3333",
+    "voicemail": "",
+    "emails": [
+      {
+        "type": "Personal Email",
+        "value": "bill@gmail.com",
+        "selected": "true"
+      },
+      {
+        "type": "Work Email",
+        "value": "bill@cgm.com"
+      },
+      {
+        "type": "Personal Email",
+        "value": "bill2@gmail.com"
+      }
+    ],
+    "email": "bill@gmail.com",
+    "ethnicity":[],
+    "race": [
+      {
+        "id": "zxfgg5232",
+        "value": "Black or African American"
+      },
+      {
+        "id": "zxf5232",
+        "value": "Asian"
+      }
+    ],
+    "language": [],
+    "primaryInsurance": "USAA",
+    "primaryInsurancePolicyNumber": "789987",
+    "assignedProvider": "Benji B. Casy III, M.D.",
+    "mrn": "100020",
+    "preferredPharm": "Walgreens",
+    "isDeceased": "No",
+    "lastSeen": "09/25/2015",
+    "lastSeenCC": "Sore Shoulder",
+    "lastViewed": "10/11/2015",
+    "avatar": "assets/images/patients/8/photo/a8.jpg",
+    "middleName": "Arthur",
+    "contactPreference": "Home Phone Message",
+    "mothersFirstName": "Tammy",
+    "mothersMaidenName": "Hoag",
+    "birthPlace": "Mercy Hospital",
+    "multipleBirth": "no",
+    "immRegStatus": "Active",
+    "immVFCStatus": "Not VFC Eligible",
+    "immRRCP": "No Contact Preference Selected",
+    "privateNotes": "test notes and such."
+  }
+]

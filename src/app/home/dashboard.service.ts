@@ -6,7 +6,7 @@ import 'rxjs/Rx';
 @Injectable()
 
 export class DashboardService {
-    private DASHBOARD_URL = '../../assets/mock-data/routes_data.json';
+    private DASHBOARD_URL: string = '../../assets/mock-data/routes_data.json';
     private liveUpdate;
 
   constructor(private http:Http) {
