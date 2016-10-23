@@ -16,7 +16,7 @@ export class VisitorListComponent {
   @Input() public searchWord;
   public tabName:string = 'Recent Patients';
   // list of or patients. Grab it from patientListService
-  public patientsListData;
+  public visitorsListData;
   // single patient data.
   public recentPatientData;
 
@@ -35,7 +35,7 @@ export class VisitorListComponent {
 
   // fetch patient list from service when component has init
   ngOnInit(){
-    this.getAllPatientsData();
+    this.getAllVisitorsData();
   }
 
   updateSearchWord() {
@@ -48,28 +48,16 @@ export class VisitorListComponent {
    *
    * @return {void}
    */
-  private getAllPatientsData():void {
+  private getAllVisitorsData():void {
      this.visitorService.fetchAllPAtients()
       .subscribe(
-        res => { console.log(res); this.patientsListData = res},
+        res => {this.visitorsListData = res},
         err => console.log(err)
       );
-
-    // this.patientsListService.fetchAllPAtients().subscribe(
-    //   res => {
-    //     this.patientsListService.cachedPatients = res;
-    //     this.patientsListData = res;
-    //     this.recentPatientData = res[0]; // get first patient data
-    //     // TODO  patients sort!
-    //     this.patsListServCom.chosenPatientId = res[0].id;
-    //
-    //   },
-    //   error => this.errorMessage = <any>error
-    // );
   }
 
-  private setChoosenPatientData(patientData) {
-    this.recentPatientData = patientData;
+  private setChoosenPatientData(visitorData) {
+    this.recentPatientData = visitorData;
   }
 
   set pipedPatientsData(filteredPatientsData) {

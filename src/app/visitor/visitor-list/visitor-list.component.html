@@ -1,4 +1,4 @@
-<div class="wrapper wrapper-content  animated fadeInRight" *ngIf="patientsListData">
+<div class="wrapper wrapper-content  animated fadeInRight" *ngIf="visitorsListData">
     <div class="row">
 
         <div class="col-md-8">
@@ -33,25 +33,25 @@
                                 <span class="data-list-item col-md-2">MRN</span>
                                 <span class="data-list-item col-md-3">Phone number</span>
                             </div>
-                            <div *ngFor="let patientData of patientsListData"
-                                 (click)="setChoosenPatientData(patientData)"
+                            <div *ngFor="let visitorsData of visitorsListData"
+                                 (click)="setChoosenPatientData(visitorsData)"
                                  class="row body-row zebra-row"
-                                 [class.selected]="patientData === recentPatientData">
-                                <span class="data-list-item col-md-1">{{patientData.id}}</span>
+                                 [class.selected]="visitorsData === recentPatientData">
+                                <span class="data-list-item col-md-1">{{visitorsData.id}}</span>
                                 <span class="data-list-item col-md-1 client-avatar">
-                                  <!-- <img *ngIf="patientData.avatar" alt="image" src="{{patientData.avatar}}"> -->
+                                  <!-- <img *ngIf="visitorsData.avatar" alt="image" src="{{visitorsData.avatar}}"> -->
                                   <i  class="fa fa-user"></i>
                                   </span>
                                 <span class="data-list-item col-md-3">
-                                  {{patientData.firstName}}
-                                  {{patientData.lastName}}
+                                  {{visitorsData.firstName}}
+                                  {{visitorsData.lastName}}
                                  </span>
-                                <span class="data-list-item col-md-2">{{patientData.dob}}</span>
-                                <span class="data-list-item col-md-2">{{patientData.mrn}}</span>
-                                <span class="data-list-item col-md-3">{{patientData.hphone || 'not given'}}</span>
+                                <span class="data-list-item col-md-2">{{visitorsData.dob}}</span>
+                                <span class="data-list-item col-md-2">{{visitorsData.mrn}}</span>
+                                <span class="data-list-item col-md-3">{{visitorsData.hphone || 'not given'}}</span>
                             </div>
 
-                            <div *ngIf="!patientsListData.length" class="alert alert-warning" role="alert">No patients
+                            <div *ngIf="!visitorsListData.length" class="alert alert-warning" role="alert">No patients
                                 found.
                             </div>
                         </div>
