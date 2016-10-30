@@ -45,7 +45,3 @@ main {
 @include flexGrow(1);
     position: relative;
 }
-
-.cgm-tag-autocomplete .ui-autocomplete-multiple {
-    overflow: initial;
-}

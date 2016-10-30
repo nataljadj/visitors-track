@@ -12,16 +12,13 @@ const MODULE_NAME: string = 'visitor-list';
 })
 
 export class VisitorListComponent {
-
   @Input() public searchWord;
   public tabName:string = 'Recent Patients';
-  // list of or patients. Grab it from patientListService
   public visitorsListData;
   // single patient data.
-  public recentPatientData;
+  public recentVisitorData;
 
   public newFormModel;
-  public newPatientData;
   public detailsModel;
 
   constructor(
@@ -43,11 +40,6 @@ export class VisitorListComponent {
     this.tabName = 'Patients Result';
   }
 
-  /**
-   * getAllPatientsData - get all patients data
-   *
-   * @return {void}
-   */
   private getAllVisitorsData():void {
      this.visitorService.fetchAllPAtients()
       .subscribe(
@@ -56,12 +48,12 @@ export class VisitorListComponent {
       );
   }
 
-  private setChoosenPatientData(visitorData) {
-    this.recentPatientData = visitorData;
+  private setChoosenVisitorData(visitorData) {
+    this.recentVisitorData = visitorData;
   }
 
-  set pipedPatientsData(filteredPatientsData) {
-    this.recentPatientData = filteredPatientsData[0];
+  set pipedVisitorsData(filteredPatientsData) {
+    this.recentVisitorData = filteredPatientsData[0];
   }
 
 }

@@ -4,9 +4,6 @@
         <div class="col-md-8">
             <div class="ibox">
                 <div class="ibox-content">
-            <span>
-              <!--<button class="btn btn-primary btn-sm pull-right" (click)="modal.open('lg')"><i class="fa fa-plus"></i> Add Patient</button>-->
-            </span>
                     <br><br>
             <span class="text-muted small pull-left ng-binding">Last modification: <i class="fa fa-clock-o"></i> 03/29/2016
             </span>
@@ -34,9 +31,8 @@
                                 <span class="data-list-item col-md-3">Phone number</span>
                             </div>
                             <div *ngFor="let visitorsData of visitorsListData"
-                                 (click)="setChoosenPatientData(visitorsData)"
                                  class="row body-row zebra-row"
-                                 [class.selected]="visitorsData === recentPatientData">
+                                 [class.selected]="visitorsData === recentVisitorData">
                                 <span class="data-list-item col-md-1">{{visitorsData.id}}</span>
                                 <span class="data-list-item col-md-1 client-avatar">
                                   <!-- <img *ngIf="visitorsData.avatar" alt="image" src="{{visitorsData.avatar}}"> -->

@@ -63,3 +63,18 @@
 .icon i{
     color: #0074bc;
 }
+
+.zebra-row:nth-of-type(even) {
+  background-color: #F5F4F4;;
+}
+
+.zebra-row-e:nth-of-type(odd) {
+  background-color: #F5F4F4;;
+}
+
+.zebra-row.selected {
+  background-color: #ECEFF2;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0074BC;
+}
